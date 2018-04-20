@@ -1,7 +1,7 @@
 
 
 def badge_maker(name)
-  names.each do |i|
+  name.each do |i|
     puts "Hello, my name is #{i}."
   end
 end
