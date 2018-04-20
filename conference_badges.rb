@@ -11,7 +11,7 @@ names = ["Sunny", "Joe"]
 #    puts "Hello, my name is #{name}."
 # end
 #end
-
+badge_maker("Arel")
 #def assign_rooms(names)
 #  i == 0
 #  names.each do |name|
