@@ -1,30 +1,26 @@
-
 def badge_maker(name)
-    "Hello, my name is #{name}."
-  end
+  puts "Hello, my name is #{name}"
+end
 
 def batch_badge_creator(attendees)
   attendees.collect do |name|
-     badge_maker(name)
- end
-
+    puts "Hello, my name is #{name}"
+  end
 end
 
-def assign_rooms(attendees)
-  count = 0
- attendees.collect do |name|
-   count += 1
-    "Hello, #{name}! You'll be assigned to room #{count}!"
+  def assign_rooms(attendees)
+    counter = 0
+    attendees.collect do |name|
+      counter += 1
+    puts "Hello, #{name}! You'll be assigned to room #{counter}!"
   end
-
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |i|
-    puts i
+  batch_badge_creator(attendees).each do |op|
+    puts op
   end
-  assign_rooms(attendees).each do |i|
-    puts i
+  assign_rooms(attendees).each do |op|
+    puts op
   end
-
 end
