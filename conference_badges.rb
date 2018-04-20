@@ -1,7 +1,7 @@
 
 
-def badge_maker(names)
-  badge_maker(names).each do |name|
+def badge_maker(attendees)
+  badge_maker.each do |name|
     puts "Hello, my name is #{name}."
   end
 end
