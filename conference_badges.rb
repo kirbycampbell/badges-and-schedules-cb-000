@@ -1,5 +1,5 @@
 def badge_maker(name)
-  puts "Hello, my name is #{name}."
+  "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(attendees)
@@ -12,7 +12,7 @@ end
     counter = 0
     attendees.collect do |name|
       counter += 1
-    puts "Hello, #{name}! You'll be assigned to room #{counter}!"
+    "Hello, #{name}! You'll be assigned to room #{counter}!"
   end
 end
 
