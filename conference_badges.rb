@@ -2,7 +2,7 @@
 
 def badge_maker(names)
   badge_maker.each do |name|
-    puts "Hello, my name is #{name}."
+    "Hello, my name is #{name}."
   end
 end
 
