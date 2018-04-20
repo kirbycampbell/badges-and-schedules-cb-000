@@ -1,4 +1,4 @@
-names = ["Sunny", "Joe", "Bob"]
+#names = ["Sunny", "Joe", "Bob"]
 
 def batch_badge_maker(names)
   names.each do |name|
