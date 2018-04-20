@@ -6,11 +6,11 @@ def badge_maker(names)
   end
 end
 
-#def batch_badge_creator(names)
-#  names.each do |name|
-#    puts "Hello, my name is #{name}."
-#  end
-#end
+def batch_badge_creator(names)
+  names.each do |name|
+    puts "Hello, my name is #{name}."
+ end
+end
 
 #def assign_rooms(names)
 #  i == 0
